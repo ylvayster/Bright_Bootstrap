@@ -2558,7 +2558,7 @@ output {
   display: block;
   width: 100%;
   height: 36px;
-  padding: 6px 27px;
+  padding: 6px 6px;
   font-size: 16px;
   line-height: 1.42857143;
   color: #011d24;
@@ -2637,7 +2637,7 @@ input[type="search"] {
   }
 }
 .form-group {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .radio,
 .checkbox {
@@ -3066,9 +3066,9 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #011d24;
-  background-color: #ddf2f1;
-  border-color: #ddf2f1;
+  color: #ecf7f6;
+  background-color: #70b5b3;
+  border-color: #70b5b3;
 }
 .btn-default:focus,
 .btn-default.focus {

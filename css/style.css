@@ -1,0 +1,33 @@
+.container-fluid{
+    padding: 0 9%; 
+}
+
+/* BAKGRUNDSFÄRG*/
+
+.blue {
+background-color: #AEE8E6;
+}
+
+/*BAKGRUNDSBILDER*/
+
+#kartaNoscript{ 
+background-image: url("../img/kartamobil.jpg");
+background-size: cover;
+background-position: center left; 
+height: 280px;
+max-width: 100%;
+}
+
+/* BILDRAMAR */
+
+.portfolio-img{
+border: 12px solid #bebebe;
+box-shadow: 5px 5px 10px grey;
+margin: 4.5% 0;
+}
+
+/*FORMULÄR*/
+
+form {
+padding: 24px 0;
+}
