@@ -25,37 +25,74 @@
     </nav>
 
     <main>
-        <h2>Kontakta oss</h2>
-
+       
+       <div class="container-fluid blue">
+           <div class="row">
+                <h2 class="col-xs-12">Kontakta oss</h2>
+            </div>
+        </div>
+         
+    <div class="container-fluid">
+         <div class="row">
           <p>Har du en generell förfrågan? Kontakta oss då via formuläret nedan eller på <a href="mailto:fakeaddress@bright.se" title="fakeadress@bright.se">hello@bright.se</a>
           </p>
-              
+          </div>
+        </div>      
 
+    <div class="container-fluid blue">
         <form>
           <fieldset>
-            <label> Ditt namn</label> <input type="text" name="namn" placeholder="Namn" id="namn">
-            <label> Din e-mailadress</label><input type="text" name="email" placeholder="E-mailadress" id="email">
-            <label> Ditt telefonnummer</label><input type="text" name="telnr" placeholder="Telefonnummer" id="telefon">
-            <label> Ditt meddelande</label><textarea name="form_meddelande" placeholder="Ditt meddelande" rows="10" id="textarea"></textarea>
-            <button type="submit">SKICKA</button> 
+               <div class="form-group col-xs-12">
+                <label class="sr-only sr-only-focusable"> Ditt namn</label> 
+                <input type="text" name="namn" placeholder="Namn" class="form-control">
+                </div>
+                
+                <div class="form-group col-xs-12">
+                <label class="sr-only sr-only-focusable"> Din e-mailadress</label>
+                <input type="text" name="email" placeholder="E-mailadress" class="form-control">
+              </div>
+               
+               <div class="form-group col-xs-12">
+                <label class="sr-only sr-only-focusable"> Ditt telefonnummer</label>
+                <input type="text" name="telnr" placeholder="Telefonnummer" class="form-control">
+                </div>
+                
+                <div class="form-group col-xs-12">
+                <label class="sr-only sr-only-focusable"> Ditt meddelande</label>
+                <textarea name="form_meddelande" placeholder="Ditt meddelande" rows="10" class="form-control"></textarea>
+                </div>
+                
+                <div class="col-xs-12">
+                <button type="submit" class="btn btn-default btn-block">SKICKA</button> 
+                </div>
+                
           </fieldset>   
         </form> 
+</div>
 
-
-        <section>
+       <div class="container-fluid">
+       <div class="row">
+        <section class="col-xs-12">
           <h3>Hitta till oss!</h3>
-          <p>Vi finns på Tomtebodavägen 3A i Solna, Stockholm. Kartan nedan är från <a href="https://goo.gl/maps/jKwYbcMFYnk" title="Karta från Google över Tomtebodavägen 3A, Solna" target="_blank">Google Maps</a>.
-          </p>
-        </section>
-
-        <div><span>Karta från Google över Tomtebodavägen 3A, Solna</span></div>    
-
-         
-      <noscript>                          
-        <div title="Karta från Google över Tomtebodavägen 3A, Solna"><span class="hidden">Karta från Google över Tomtebodavägen 3A, Solna</span>
+              <p>Vi finns på Tomtebodavägen 3A i Solna, Stockholm. Kartan nedan är från <a href="https://goo.gl/maps/jKwYbcMFYnk" title="Karta från Google över Tomtebodavägen 3A, Solna" target="_blank">Google Maps</a>.
+              </p>
+            </section>
+           </div>
         </div>
-      </noscript>  
+    
+       <div class="container-fluid">
+           <div class="row">
+            <div class="col-xs-12 sr-only sr-only-focusable" id="kartaScript"><span>Karta från Google över Tomtebodavägen 3A, Solna</span>           </div>    
+            </div>
+    </div>
+        
+          <noscript class="col-xs-12">                        
+            <div title="Karta från Google över Tomtebodavägen 3A, Solna" id="kartaNoscript"><span class="sr-only sr-only-focusable">Karta från Google över Tomtebodavägen 3A, Solna</span>
+            </div>
+          </noscript>    
+          
     </main>
+
 
  		<footer>
  <div class="container-fluid">
@@ -88,6 +125,7 @@
 		    </p>
 		  </div>
           </div>
+
 
 			<address>
               <div class="container-fluid">
