@@ -7,6 +7,12 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   <noscript>
+       <style>
+           #kartaScript {display: none;}
+       </style>
+   </noscript>
+   
   </head>
 
   <body>
@@ -47,22 +53,22 @@
                 <input type="text" name="namn" placeholder="Namn" class="form-control">
                 </div>
                 
-                <div class="form-group col-xs-12">
+                <div class="form-group col-xs-12 col-sm-6" id="email">
                 <label class="sr-only sr-only-focusable"> Din e-mailadress</label>
-                <input type="text" name="email" placeholder="E-mailadress" class="form-control">
+                <input type="text" name="email" placeholder="E-mailadress" class="form-control" >
               </div>
                
-               <div class="form-group col-xs-12">
+               <div class="form-group col-xs-12 col-sm-6">
                 <label class="sr-only sr-only-focusable"> Ditt telefonnummer</label>
                 <input type="text" name="telnr" placeholder="Telefonnummer" class="form-control">
                 </div>
                 
-                <div class="form-group col-xs-12">
+                <div class="form-group col-xs-12 col-sm-12">
                 <label class="sr-only sr-only-focusable"> Ditt meddelande</label>
                 <textarea name="form_meddelande" placeholder="Ditt meddelande" rows="10" class="form-control"></textarea>
                 </div>
                 
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-sm-12">
                 <button type="submit" class="btn btn-default btn-block">SKICKA</button> 
                 </div>
                 
@@ -72,7 +78,7 @@
 
        <div class="container-fluid">
        <div class="row">
-        <section class="col-xs-12">
+        <section class="col-xs-12 col-sm-12">
           <h3>Hitta till oss!</h3>
               <p>Vi finns på Tomtebodavägen 3A i Solna, Stockholm. Kartan nedan är från <a href="https://goo.gl/maps/jKwYbcMFYnk" title="Karta från Google över Tomtebodavägen 3A, Solna" target="_blank">Google Maps</a>.
               </p>
@@ -80,13 +86,11 @@
            </div>
         </div>
     
-       <div class="container-fluid">
-           <div class="row">
-            <div class="col-xs-12 sr-only sr-only-focusable" id="kartaScript"><span>Karta från Google över Tomtebodavägen 3A, Solna</span>           </div>    
-            </div>
-    </div>
+
+        <div class="col-xs-12 col-sm-12" id="kartaScript"><span class="sr-only sr-only-focusable">Karta från Google över Tomtebodavägen 3A, Solna</span></div>
+ 
         
-          <noscript class="col-xs-12">                        
+          <noscript class="col-xs-12 col-sm-12">                  
             <div title="Karta från Google över Tomtebodavägen 3A, Solna" id="kartaNoscript"><span class="sr-only sr-only-focusable">Karta från Google över Tomtebodavägen 3A, Solna</span>
             </div>
           </noscript>    
@@ -135,10 +139,14 @@
 			   <a href="mailto:karolin.thunman@gmail.com" title="karolin.thunman@gmail.com"> Karolin Thunman</a>,
 			   <a href="mailto:natasza@fingerspitz.se" title="natasza@fingerspitz.se"> Natasza Nowakowska</a>.<br>(Projekt gjort under utbildningen till Frontendutvecklare, Nackademin.)
                 </p></div>
-                
 			  </div>
 			</address>  
 		</footer>
-
+		
+<!-- Scripts för Google map-->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+<script type="text/javascript" src="scripts/script.js"></script> 
+<!-- slut på scripts--> 
+ 
   </body>
 </html>

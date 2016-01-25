@@ -21,6 +21,11 @@ height: 280px;
 max-width: 100%;
 }
 
+#kartaScript{
+height: 280px;
+max-width: 100%;
+}
+
 /* BILDRAMAR */
 
 .portfolio-img{
@@ -34,8 +39,6 @@ margin: 4.5% 0;
 form {
 padding: 24px 0;
 }
-
-
 
 
 /*TYPOGRAFI*/
@@ -64,4 +67,19 @@ footer {
   background: -o-linear-gradient(rgba(255, 255, 255,1)0%,rgba(254, 238, 152,1)80%); /* For Opera 11.6 to 12.0 */
   background: -moz-linear-gradient(rgba(255, 255, 255,1)0%,rgba(254, 238, 152,1)80%); /* For Firefox 3.6 to 15 */
   background: linear-gradient(rgba(255, 255, 255,1)0%,rgba(254, 238, 152,1)80%); /* Standard syntax */
+}
+
+/*MEDIA QUERIES*/
+@media (min-width: 500px){   
+    .container-fluid{
+    padding: 0 12.5%; 
+}
+    
+    #email {
+    padding-right: 5px;
+    }
+    
+    #kartaNoscript{ 
+        background-image: url("../img/karta.jpg");
+    }
 }
