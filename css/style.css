@@ -206,6 +206,39 @@ address {
 
 .navbar-toggle .icon-bar {
 	background-color: #000;
+  height: 5px;
+  width: 30px;
+  margin-right: 10px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+      -moz-transition: all 1s;
+        -o-transition: all 1s;
+}
+
+button.navbar-toggle[aria-expanded="true"] span:nth-child(2) {
+  width: 26px;
+  transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+  transform-origin: left;
+    -webkit-transform-origin: left;
+     -moz-transform-origin: left;
+      -o-transform-origin: left;
+}
+button.navbar-toggle[aria-expanded="true"] span:nth-child(3) {
+  background-color: transparent;
+}
+button.navbar-toggle[aria-expanded="true"] span:nth-child(4) {  
+  width: 26px;
+  transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+  transform-origin: left;
+    -webkit-transform-origin: left;
+     -moz-transform-origin: left;
+      -o-transform-origin: left;
 }
 
 #utanJS {
@@ -234,7 +267,7 @@ address {
 
 
 /*MEDIA QUERIES*/
-@media only screen and (min-width: 500px){   
+@media (min-width: 500px){   
     
   .container-fluid {
   padding: 0 12.5%; 
@@ -305,14 +338,14 @@ address {
 	}
 
 	#lista {
-		padding-left: 17%;
+		padding-left: 0;
 	}
 
 	.navbar a {
 		width: auto;
 		float: left;
 		display: block;
-		margin: 0 15px;
+		margin: 0 5px;
 	}
 
 	.navbar a:hover {
@@ -364,6 +397,15 @@ h3.pull-right, p.pull-right{
   }
 
 }
+@media (min-width: 900px){
+    #lista {
+    padding-left: 17%;
+    }
+@media (min-width: 970px){
+    .navbar a {
+      margin: 0 15px;
+    }
+  }
 
 
 
