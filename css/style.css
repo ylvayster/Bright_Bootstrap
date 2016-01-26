@@ -181,6 +181,31 @@ address {
 	background-color: #000;
 }
 
+#utanJS {
+  margin: 0;
+  padding-top: 15px;
+  background-color: #FFF;
+}
+
+#utanJS li {
+  list-style: none;
+  background-color: #FFF;
+  padding: 3px 0;
+  text-align: center;
+  margin-left: -40px;
+}
+
+#utanJS li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  color: #000;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+
 /*MEDIA QUERIES*/
 @media only screen and (min-width: 500px){   
     
@@ -268,6 +293,10 @@ address {
 	.navbar li.active a{
 		background-color: #AEE8E6;
 	} 
+
+  #utanJS {
+    display: none;
+  }
   
   header {
 	height: 250px;
