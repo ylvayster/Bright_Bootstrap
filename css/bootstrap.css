@@ -1091,7 +1091,7 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 300;
   font-size: 16px;
-  line-height: 1.42857143;
+  line-height: 1.5em;
   color: #011d24;
   background-color: #fff;
 }
@@ -1230,8 +1230,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 22px;
-  margin-bottom: 11px;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 }
 h1 small,
 .h1 small,
@@ -1295,7 +1295,7 @@ h6,
   font-size: 14px;
 }
 p {
-  margin: 0 0 11px;
+  margin: 0 0 12px;
 }
 
 
@@ -1315,7 +1315,7 @@ p {
 }
 small,
 .small {
-  font-size: 87%;
+  font-size: 75%;
 }
 mark,
 .mark {
