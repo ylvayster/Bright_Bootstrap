@@ -136,14 +136,12 @@ address {
 
 .navbar {
 	padding: 0;
-	margin-top: 100px;
 	margin-bottom: 0;
 	border: none;
 }
 
 #lista a, li {
 	border: none;
-	border-radius: 0;
 }
 
 #lista a {
@@ -165,7 +163,6 @@ address {
 .navbar button {
 	padding: 0;
 	border: none;
-
 }
 
 .navbar-toggle .icon-bar {
@@ -175,58 +172,47 @@ address {
 /*MEDIA QUERIES*/
 @media only screen and (min-width: 500px){   
     
-    .container-fluid {
-    padding: 0 12.5%; 
-		}
-    
-    #email {
-    padding-right: 5px;
-    }
-    
-    #kartaNoscript{ 
-        background-image: url("../img/karta.jpg");
-    }
-
-    .navbar {
-		margin-top: 175px;
-		}
+  .container-fluid {
+  padding: 0 12.5%; 
+	}
+  
+  #email {
+  padding-right: 5px;
+  }
+  
+  #kartaNoscript{ 
+      background-image: url("../img/karta.jpg");
+  }
   
   header {
     height:175px;
   }
 }
 
-
 @media (min-width: 768px){
     
-    .container-fluid{
-    padding: 0 22.5%;
-    }
-    
-    #kartaNoscript, #kartaScript{
-    height: 350px;}
-    
-    
-    div.container-fluid.portfolio{
-    padding: 0;
-    }
-    
-   article.portfolio{
-    padding: 2% 4%;
-    }
-    
-    article.portfolio h3, article.portfolio p{
-    padding-left: 25px;
-    }
-}
+  .container-fluid{
+  padding: 0 22.5%;
+  }
+  
+  #kartaNoscript, #kartaScript{
+  height: 350px;}
+  
+  
+  div.container-fluid.portfolio{
+  padding: 0;
+  }
+  
+ article.portfolio{
+  padding: 2% 4%;
+  }
+  
+  article.portfolio h3, article.portfolio p{
+  padding-left: 25px;
+  }
 
-@media only screen and (min-width: 768px) {
 	nav .container-fluid {
 		padding: 0;
-	}
-
-	.navbar {
-		margin-top: 250px;
 	}
 
 	#lista {
@@ -248,8 +234,8 @@ address {
 		background-color: #AEE8E6;
 	} 
   
-    header {
-		height: 250px;
+  header {
+	height: 250px;
 	}  
 }
 
