@@ -12,26 +12,39 @@
 		<header>
 		</header>
 
-		<nav>
-			<ul>
-				<li><a href="index.html">Hem</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="vad_vi_gor.html">Vad vi gör</a></li>
-				<li><a href="om_oss.html">Om oss</a></li>
-				<li><a href="kontakt.html">Kontakt</a></li>
-				<li><a href="in_english.html">English</a></li>
-			</ul>
-		</nav>
+		<nav class="navbar">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#lista" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>	
+			<div class="container-fluid">
+				<div id="lista" class="collapse navbar-collapse">
+					<ul class="nav nav-tabs nav-justified">
+						<li><a href="index.html">Hem</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="vad_vi_gor.html">Vad vi gör</a></li>
+						<li><a href="om_oss.html">Om oss</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+						<li><a href="in_english.html">English</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav> 
+
 
 		<main>
-	    <article>
-	       <h2>Bright – better web!</h2>
-          <p class="lead">Bright skapar kreativa lösningar för er digitala närvaro. Vi är experter på webb och brinner för att göra webben mer hållbar!
-          </p>
+			<div class=container-fluid>
+		    <article>
+		       <h2>Bright – better web!</h2>
+	          <p class="lead">Bright skapar kreativa lösningar för er digitala närvaro. Vi är experter på webb och brinner för att göra webben mer hållbar!
+	          </p>
 
-          <p class="lead">Läs gärna mer om <a href="vad_vi_gor.html" title="Läs mer om vad vi gör">vad vi gör</a>, titta i vår <a href="portfolio.html" title="Vår portfolio">portfolio</a>, ta reda på mer <a href="om_oss.html" title="Läs mer om Bright">om Bright</a> eller ta <a href="kontakt.html" title="Ta kontakt med oss!">kontakt</a> med oss och hör hur vi kan hjälpa er med ert webbprojekt!
-          </p>
-       </article>
+	          <p class="lead">Läs gärna mer om <a href="vad_vi_gor.html" title="Läs mer om vad vi gör">vad vi gör</a>, titta i vår <a href="portfolio.html" title="Vår portfolio">portfolio</a>, ta reda på mer <a href="om_oss.html" title="Läs mer om Bright">om Bright</a> eller ta <a href="kontakt.html" title="Ta kontakt med oss!">kontakt</a> med oss och hör hur vi kan hjälpa er med ert webbprojekt!
+	          </p>
+	       </article>
+       </div>
 		</main>
 
 		<footer>
@@ -78,7 +91,9 @@
 			  </div>
 			</address>  
 		</footer>
-
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="scripts/bootstrap.js"></script>
 
 	</body>
 
