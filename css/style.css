@@ -60,6 +60,10 @@ box-shadow: 5px 5px 10px grey;
 
 /*FORMULÄR*/
 
+form {
+padding: 24px 0;
+}
+
 
 /*TYPOGRAFI*/
 h2 {
@@ -67,6 +71,7 @@ h2 {
   font-weight: 400;
   font-style: italic;
   text-align: center;
+    margin: 0.8em 0;
 }
 
 h3, h4 {
@@ -76,6 +81,7 @@ h3, h4 {
   text-transform: uppercase;
   text-align: left;
 }
+
 
 a:link{
   border-bottom: thin dotted;
@@ -92,9 +98,14 @@ a:visited{
 }
 
 ol{
+    padding-left: 0;
     text-align: center;
     font-style: italic;
     list-style-position: inside;
+}
+
+.lonep{
+margin-top: 1.8em;
 }
 /*MEDARBETARE*/
 .medarbetare figure:nth-child(1) {
@@ -264,7 +275,7 @@ address {
   }
   
   article.portfolio{
-  padding: 2% 4%;
+  padding: 4%;
   }
   
   article.portfolio h3, article.portfolio p{
@@ -316,8 +327,12 @@ address {
     font-size: 1.5em;
     line-height: 1em;
     /*margin-bottom: 0.4em; */
-    
   }
+    
+h3.pull-right, p.pull-right{
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
 
   .lead {
   font-size: 2em;
