@@ -104,9 +104,17 @@ ol{
     list-style-position: inside;
 }
 
+
+.lead {  
+padding-top: 2.5em;
+padding-bottom: 2.5em; 
+}
+
 .lonep{
 margin-top: 1.8em;
 }
+
+
 /*MEDARBETARE*/
 .medarbetare figure:nth-child(1) {
 	padding-right: 5%;
@@ -144,6 +152,8 @@ footer {
   background: -o-linear-gradient(rgba(255, 255, 255,1)0%,rgba(254, 238, 152,1)80%); /* For Opera 11.6 to 12.0 */
   background: -moz-linear-gradient(rgba(255, 255, 255,1)0%,rgba(254, 238, 152,1)80%); /* For Firefox 3.6 to 15 */
   background: linear-gradient(rgba(255, 255, 255,1)0%,rgba(254, 238, 152,1)80%); /* Standard syntax */
+padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 footer .container-fluid {
@@ -254,8 +264,10 @@ address {
   }
 
   .lead {
-  font-size: 1.8em;
-  line-height: 1.6em;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
   }
   
 }
@@ -335,8 +347,10 @@ h3.pull-right, p.pull-right{
 }
 
   .lead {
-  font-size: 2em;
-  line-height: 1.6em;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
   }
 
 }
