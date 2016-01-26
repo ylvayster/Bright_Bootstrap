@@ -317,6 +317,10 @@ address {
 		background-color: #AEE8E6;
 	} 
 
+  .navbar li.activeHome a{
+    background-color: #eeeeec;
+  } 
+
   #utanJS {
     display: none;
   }
