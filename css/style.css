@@ -30,6 +30,14 @@ background-color: #AEE8E6;
 
 /*BAKGRUNDSBILDER*/
 
+#index{
+    background-image: url(../img/sky.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    height: auto;
+    max-width: 100%;
+}
+
 #kartaNoscript{ 
 background-image: url("../img/kartamobil.jpg");
 background-size: cover;
@@ -65,6 +73,20 @@ h3, h4 {
  /* font-size: 1em; */
   text-transform: uppercase;
   text-align: left;
+}
+
+a:link{
+  border-bottom: thin dotted;
+    word-break: break-all;
+}
+
+a:hover, a:focus{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+a:visited{
+  border-bottom-style: dotted;
 }
 
 /*MEDARBETARE*/
