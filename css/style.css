@@ -67,6 +67,34 @@ h3, h4 {
   text-align: left;
 }
 
+/*MEDARBETARE*/
+.medarbetare figure:nth-child(1) {
+	padding-right: 5%;
+}
+.medarbetare figure:nth-child(2) {
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+}
+.medarbetare figure:nth-child(3) {
+	padding-left: 5%;
+}
+
+.medarbetare img {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border: 10px solid #FFF;
+	border-radius: 5px;
+}
+
+.medarbetare figcaption {
+	text-align: center;
+}
+
+.medarbetare figcaption span {
+	text-transform: uppercase;
+}
+
 /*FOOTER*/
 
 footer {
@@ -115,6 +143,7 @@ address {
 .navbar button {
 	padding: 0;
 	border: none;
+
 }
 
 .navbar-toggle .icon-bar {
