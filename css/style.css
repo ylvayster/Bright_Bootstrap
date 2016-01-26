@@ -31,16 +31,9 @@ max-width: 100%;
 .portfolio-img{
 border: 12px solid #bebebe;
 box-shadow: 5px 5px 10px grey;
-margin: 4.5% 0;
 }
 
 /*FORMULÄR*/
-
-form {
-padding: 24px 0;
-}
-
-
 /*TYPOGRAFI*/
 h2 {
   font-family: 'Playfair Display', serif;
@@ -81,5 +74,28 @@ footer {
     
     #kartaNoscript{ 
         background-image: url("../img/karta.jpg");
+    }
+}
+
+@media (min-width: 768px){
+    
+    .container-fluid{
+    padding: 0 22.5%;
+    }
+    
+    #kartaNoscript, #kartaScript{
+    height: 350px;}
+    
+    
+    div.container-fluid.portfolio{
+    padding: 0;
+    }
+    
+   article.portfolio{
+    padding: 2% 4%;
+    }
+    
+    article.portfolio h3, article.portfolio p{
+    padding-left: 25px;
     }
 }
