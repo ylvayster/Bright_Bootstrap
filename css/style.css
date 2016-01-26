@@ -106,8 +106,8 @@ ol{
 
 
 .lead {  
-padding-top: 2.5em;
-padding-bottom: 2.5em; 
+padding-top: 30px;
+padding-bottom: 30px; 
 }
 
 .lonep{
@@ -266,8 +266,8 @@ address {
   .lead {
   font-size: 1.5em;
   line-height: 1.7em;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  padding-top: 30em;
+  padding-bottom: 30em;
   }
   
 }
@@ -349,8 +349,8 @@ h3.pull-right, p.pull-right{
   .lead {
   font-size: 1.5em;
   line-height: 1.7em;
-  padding-top: 2.5em;
-  padding-bottom: 2.5em;
+  padding-top: 30px;
+  padding-bottom: 30px;
   }
 
 }
